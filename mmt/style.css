@@ -1,0 +1,366 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+body {
+}
+
+.bg-half {
+  background-image: url("./red-ocean.webp");
+  width: 100vw;
+  height: 70vh;
+  background-size: 100vw 100vh;
+  background-position: center;
+}
+
+.logo-img {
+  height: 38px;
+  width: 135px;
+}
+.twenty-five-img-logo {
+  height: 38px;
+  width: 135px;
+}
+
+.list-your-property {
+  color: white;
+}
+.grow-your-business {
+  color: #ffffffaa;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.introducing-mybiz {
+  color: white;
+}
+.business-travel {
+  color: #ffffffaa;
+}
+.my-trips {
+  color: white;
+}
+.manage-bookings {
+  color: #ffffffaa;
+}
+a {
+  cursor: pointer;
+}
+
+.inside-first-div {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+.logo-with-years {
+  display: flex;
+  flex-direction: row;
+}
+
+.keyClass {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.headerInsideList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* min-width: 200px; */
+  padding: 0 10px;
+}
+
+.headerBtn {
+  padding: 9px 10px;
+  background: linear-gradient(to right, #409afb, #1567f4);
+  border-radius: 5px;
+  height: 18px;
+}
+
+.costBtn {
+  padding: 9px 10px;
+  background: #474646aa;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 18px;
+}
+
+.flightDiv {
+  width: 80%;
+  margin: auto;
+  background: white;
+  height: 40vh;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  position: relative;
+  /* border: 1px solid; */
+}
+
+.placeClass {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  max-width: 200px;
+}
+
+.firstAirportName {
+  font-size: 15px;
+  color: #000000aa;
+}
+
+.fromLabel {
+  font-size: 15px;
+  color: #000000aa;
+  margin-bottom: 5px;
+}
+
+.fromToDiv {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  border-radius: 10px;
+  max-height: 100px;
+  justify-content: space-between;
+}
+
+.middleLabel {
+  border-left: 1px solid grey;
+}
+
+.flightLable {
+  padding: 10px 20px;
+}
+
+.round-check-div {
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.typeOfTripSelection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 8px;
+  background-color: lightblue;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.tripText {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tripsMainDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.typeOfthumnail {
+  margin-bottom: 5px;
+
+  /* text-decoration: underline; */
+}
+
+.linethrough {
+  border: 1.5px solid #008cff;
+  width: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+  /* height: 20px; */
+}
+
+.mainThumbnailView {
+  /* align-items: center;
+  border: 1px solid;
+  display: inline-flex;
+  flex-direction: column; */
+
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 0px 15px;
+  /* border: 1px solid; */
+}
+
+.mainThumbnailView img {
+  width: 20px;
+  height: 20px;
+  padding-top: 20px;
+}
+.thumbnail {
+  background: white;
+  display: inline-block;
+  border-radius: 10px;
+  position: absolute;
+  top: -40px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.extra_saving {
+  color: white;
+}
+.extraSaving_div {
+  /* background: black;
+  height: 20px; */
+  background: linear-gradient(to right, #0cff, #0da43daa);
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.select_special_fare {
+  font-weight: 700;
+}
+.specialoffer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 10px;
+  justify-content: center;
+}
+.regular_secondary {
+  color: rgb(76, 83, 90);
+  font-size: 14px;
+}
+.regular_primary {
+}
+.regularRadio {
+  margin-right: 5px;
+}
+.thirdSpecialDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.search_btn {
+  padding: 10px 50px;
+  color: white;
+  background: linear-gradient(to right, rgb(127, 174, 196), rgb(54, 108, 142));
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  position: absolute;
+  bottom: -20px;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.search_btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(to right, rgb(127, 174, 196), rgb(54, 108, 142));
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+}
+
+.search_btn:hover::after {
+  transform: scale(1.5);
+  transition: all 1s;
+  opacity: 0;
+}
+
+.top-heading,
+.tandc {
+  font-size: 12px;
+  font-weight: 500;
+}
+.topheaderandTC {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.offerCard {
+  width: 400px;
+  /* border: 1px solid; */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.insideOfferCard {
+  display: flex;
+}
+
+.heading-offer {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.subheading-offer {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.offer-img {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.lineRed {
+  width: 50px;
+  border: 1px solid red;
+  margin: 10px 0px;
+}
+.offerAtag {
+  color: #008cff;
+  font-weight: 700;
+  font-size: 15px;
+}
+.atagdiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.offermaindiv {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-flow: column;
+  gap: 20px;
+  width: 80%;
+  background: white;
+  /* overflow: hidden; */
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 50px;
+  overflow-x: auto;
+}
+
+.scroll-container {
+  /* border:1px solid; */
+  /* width: 100%; */
+}

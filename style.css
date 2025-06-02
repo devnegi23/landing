@@ -84,6 +84,7 @@ html {
 .content-1 {
   width: 350px;
 }
+
 .content-2 {
   height: max-content;
   width: max-content;
@@ -92,13 +93,20 @@ html {
   flex-direction: column;
 }
 
+.nikeshoe1:hover {
+  transform: translateY(-20px);
+  transition: 0.5s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
 .nikeshoe1 {
   height: 300px;
   width: 250px;
   background: white;
+  transition: 0.5s ease;
 }
 
-.ShopNowBtn{
+.ShopNowBtn {
   width: 200px;
   height: 40px;
   background: black;
@@ -107,4 +115,69 @@ html {
   margin-top: 30px;
   border-radius: 20px;
   border-top-left-radius: 0px;
+  border: 0;
+  transition: 1s ease;
+}
+.ShopNowBtn:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+  width: 220px;
+  height: 45px;
+  transition: 1s ease;
+}
+
+
+
+@media (max-width: 1024px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-1, .nav-2 ul {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .content {
+    flex-direction: column;
+    padding: 20px 5vw;
+    gap: 30px;
+  }
+
+  .contentShoes {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nikeshoe1 {
+    width: 90%;
+    height: auto;
+  }
+
+  .ShopNowBtn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .fromToDiv {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .placeClass {
+    width: 100%;
+  }
+
+  .flightLable {
+    width: 100%;
+  }
 }

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div class="bg-half">
+        <div class="inside-first-div">
+          <div class="logo-with-years">
+            <a>
+              <img
+                class="logo-img"
+                src="https://promos.makemytrip.com/Growth/Images/1x/mmt_dt_top_icon.png"
+                alt="make my trip"
+              />
+            </a>
+            <img
+              class="twenty-five-img-logo"
+              src="https://go-assets.ibcdn.com/u/MMT/images/1742187602180-mmt_25_years_logo_white.png"
+              alt="make my trip"
+            />
+          </div>
+
+          <div class="headerDiv">
+            <ul class="header-list">
+              <li>
+                <a class="headerInsideList">
+                  <img class="keyClass" src="./key.png" alt="key" />
+                  <div>
+                    <p class="list-your-property">List Your Property</p>
+                    <p class="grow-your-business">Grow your business!</p>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a class="headerInsideList">
+                  <img class="keyClass" src="./breifcase.png" alt="key" />
+                  <div>
+                    <p class="introducing-mybiz">Introducing myBiz</p>
+                    <p class="business-travel">Business Travel Solution</p>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a class="headerInsideList">
+                  <img class="keyClass" src="./trolley.png" alt="key" />
+                  <div>
+                    <p class="my-trips">My Trips</p>
+                    <p class="manage-bookings">Manage your bookings</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="headerInsideList headerBtn">
+                  <img class="keyClass" src="./trolley.png" alt="key" />
+                  <div>
+                    <p class="introducing-mybiz">Login or Create Account</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="headerInsideList costBtn">
+                  <div>
+                    <p class="introducing-mybiz">INR | English</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- @NOTE:- hotel, flight, bus, train -->
+
+        <!-- @NOTE:- FLIGHT DIV -->
+        <div class="flightDiv">
+          <div class="thumbnail">
+            <div class="mainThumbnailView">
+              <img class="thumbnailimg" src="./airplane.png" />
+              <p class="typeOfthumnail">Flights</p>
+              <div class="linethrough"></div>
+            </div>
+            <div class="mainThumbnailView">
+              <img class="thumbnailimg" src="./hotel.png" />
+              <p class="typeOfthumnail">Hotel</p>
+              <div class="linethrough"></div>
+            </div>
+            <div class="mainThumbnailView">
+              <img class="thumbnailimg" src="./train.png" />
+              <p class="typeOfthumnail">Train</p>
+              <div class="linethrough"></div>
+            </div>
+            <div class="mainThumbnailView">
+              <img class="thumbnailimg" src="./bus.png" />
+              <p class="typeOfthumnail">Bus</p>
+              <div class="linethrough"></div>
+            </div>
+            <div class="mainThumbnailView">
+              <img class="thumbnailimg" src="./airplane.png" />
+              <p class="typeOfthumnail">Flights</p>
+              <div class="linethrough"></div>
+            </div>
+            <div class="mainThumbnailView">
+              <img class="thumbnailimg" src="./hotel.png" />
+              <p class="typeOfthumnail">Hotel</p>
+              <div class="linethrough"></div>
+            </div>
+            <div class="mainThumbnailView">
+              <img class="thumbnailimg" src="./train.png" />
+              <p class="typeOfthumnail">Train</p>
+              <div class="linethrough"></div>
+            </div>
+            <div class="mainThumbnailView">
+              <img class="thumbnailimg" src="./bus.png" />
+              <p class="typeOfthumnail">Bus</p>
+              <div class="linethrough"></div>
+            </div>
+            <div class="mainThumbnailView">
+              <img class="thumbnailimg" src="./train.png" />
+              <p class="typeOfthumnail">Train</p>
+              <div class="linethrough"></div>
+            </div>
+            <div class="mainThumbnailView">
+              <img class="thumbnailimg" src="./bus.png" />
+              <p class="typeOfthumnail">Bus</p>
+              <div class="linethrough"></div>
+            </div>
+          </div>
+          <div>
+            <div class="tripsMainDiv">
+              <div class="typeOfTripSelection">
+                <input id="tripSelect" class="round-check-div" type="radio" />
+                <!-- <div class="round-check-div"></div> -->
+                <p class="tripText">One Way</p>
+              </div>
+              <div class="typeOfTripSelection">
+                <input id="tripSelect" class="round-check-div" type="radio" />
+                <p class="tripText">Round Trip</p>
+              </div>
+              <div class="typeOfTripSelection">
+                <input id="tripSelect" class="round-check-div" type="radio" />
+                <p class="tripText">Multi City</p>
+              </div>
+            </div>
+
+            <div class="fromToDiv">
+              <label class="flightLable">
+                <p class="fromLabel">From</p>
+                <input
+                  class="placeClass"
+                  placeholder="From"
+                  type="text"
+                  value="Lucknow"
+                />
+                <!-- <select>
+              <option value="delhi">Delhi</option>
+              <option value="mumbai">Mumbai</option>
+              <option value="kolkata">Kolkata</option>
+              <option value="chennai">Chennai</option>
+              <option value="rajasthan">Rajasthan</option>
+            </select> -->
+                <p class="firstAirportName" title="LKO, Amausi Airport India">
+                  LKO, Amausi Airport India
+                </p>
+              </label>
+              <label class="flightLable middleLabel">
+                <p class="fromLabel">To</p>
+                <input
+                  class="placeClass"
+                  placeholder="To"
+                  type="text"
+                  value="Mumbai"
+                />
+                <p
+                  class="firstAirportName"
+                  title="BOM, Chhatrapati Shivaji International"
+                >
+                  BOM, Chhatrapati Shivaji International
+                </p>
+              </label>
+              <label class="flightLable middleLabel">
+                <p class="fromLabel">Departure</p>
+                <input
+                  class="placeClass"
+                  placeholder="To"
+                  type="text"
+                  value="5 may'25"
+                />
+                <p class="firstAirportName" title="5">monday</p>
+              </label>
+              <label class="flightLable middleLabel">
+                <p class="fromLabel">Travellers & Class</p>
+                <input
+                  class="placeClass"
+                  placeholder="To"
+                  type="text"
+                  value="1 Traveller"
+                />
+                <p class="firstAirportName" title="Economy/Premium Economy">
+                  Economy/Premium Economy
+                </p>
+              </label>
+            </div>
+            <!-- @NOTE:- FLIGHT THIRD ROW DIV -->
+            <div class="thirdSpecialDiv">
+              <div>
+                <p class="select_special_fare">Select a special fare</p>
+                <h4 class="extra_saving extraSaving_div">EXTRA SAVING</h4>
+              </div>
+              <div class="specialoffer">
+                <input
+                  class="regularRadio"
+                  type="radio"
+                  placeholder="Regular"
+                />
+                <div>
+                  <p class="regular_primary">Regular</p>
+                  <p class="regular_secondary">Regular fares</p>
+                </div>
+              </div>
+              <div class="specialoffer">
+                <input
+                  class="regularRadio"
+                  type="radio"
+                  placeholder="Regular"
+                />
+                <div>
+                  <p class="regular_primary">Student</p>
+                  <p class="regular_secondary">Extra discount/baggage</p>
+                </div>
+              </div>
+              <div class="specialoffer">
+                <input
+                  class="regularRadio"
+                  type="radio"
+                  placeholder="Regular"
+                />
+                <div>
+                  <p class="regular_primary">Senior Citizen</p>
+                  <p class="regular_secondary">Up to ₹ 600 off</p>
+                </div>
+              </div>
+              <div class="specialoffer">
+                <input
+                  class="regularRadio"
+                  type="radio"
+                  placeholder="Regular"
+                />
+                <div>
+                  <p class="regular_primary">Armed Forces</p>
+                  <p class="regular_secondary">Up to ₹ 600 off</p>
+                </div>
+              </div>
+              <div class="specialoffer">
+                <input
+                  class="regularRadio"
+                  type="radio"
+                  placeholder="Regular"
+                />
+                <div>
+                  <p class="regular_primary">Doctor and Nurses</p>
+                  <p class="regular_secondary">Up to ₹ 600 off</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="search_btn">SEARCH</button>
+        </div>
+      </div>
+
+      <!-- OFFER DIV -->
+      <div class="scroll-container">
+        <div class="offermaindiv">
+          <div class="offerCard">
+            <div class="insideOfferCard">
+              <img
+                class="offer-img"
+                src="https://promos.makemytrip.com/notification/xhdpi//desktop-IH-StaysAroundTheWorld-080525.jpg?im=Resize=(134,134)"
+              />
+              <div class="textofferclass">
+                <div class="topheaderandTC">
+                  <p class="top-heading">INTL FLIGHTS</p>
+                  <p class="tandc">T&C'S APPLY</p>
+                </div>
+                <p class="heading-offer">FAST-TRACK YOUR SUMMER VACAY PLANS:</p>
+                <div class="lineRed"></div>
+                <p class="subheading-offer">
+                  Grab Up to 30% OFF* on international flights, hotels &
+                  homestays
+                </p>
+              </div>
+            </div>
+            <div class="atagdiv">
+              <a class="offerAtag">VIEW DETAILS</a>
+            </div>
+          </div>
+          <div class="offerCard">
+            <div class="insideOfferCard">
+              <img
+                class="offer-img"
+                src="https://promos.makemytrip.com/notification/xhdpi//desktop-IH-StaysAroundTheWorld-080525.jpg?im=Resize=(134,134)"
+              />
+              <div class="textofferclass">
+                <div class="topheaderandTC">
+                  <p class="top-heading">INTL FLIGHTS</p>
+                  <p class="tandc">T&C'S APPLY</p>
+                </div>
+                <p class="heading-offer">FAST-TRACK YOUR SUMMER VACAY PLANS:</p>
+                <div class="lineRed"></div>
+                <p class="subheading-offer">
+                  Grab Up to 30% OFF* on international flights, hotels &
+                  homestays
+                </p>
+              </div>
+            </div>
+            <div class="atagdiv">
+              <a class="offerAtag">VIEW DETAILS</a>
+            </div>
+          </div>
+          <div class="offerCard">
+            <div class="insideOfferCard">
+              <img
+                class="offer-img"
+                src="https://promos.makemytrip.com/notification/xhdpi//desktop-IH-StaysAroundTheWorld-080525.jpg?im=Resize=(134,134)"
+              />
+              <div class="textofferclass">
+                <div class="topheaderandTC">
+                  <p class="top-heading">INTL FLIGHTS</p>
+                  <p class="tandc">T&C'S APPLY</p>
+                </div>
+                <p class="heading-offer">FAST-TRACK YOUR SUMMER VACAY PLANS:</p>
+                <div class="lineRed"></div>
+                <p class="subheading-offer">
+                  Grab Up to 30% OFF* on international flights, hotels &
+                  homestays
+                </p>
+              </div>
+            </div>
+            <div class="atagdiv">
+              <a class="offerAtag">VIEW DETAILS</a>
+            </div>
+          </div>
+          <div class="offerCard">
+            <div class="insideOfferCard">
+              <img
+                class="offer-img"
+                src="https://promos.makemytrip.com/notification/xhdpi//desktop-IH-StaysAroundTheWorld-080525.jpg?im=Resize=(134,134)"
+              />
+              <div class="textofferclass">
+                <div class="topheaderandTC">
+                  <p class="top-heading">INTL FLIGHTS</p>
+                  <p class="tandc">T&C'S APPLY</p>
+                </div>
+                <p class="heading-offer">FAST-TRACK YOUR SUMMER VACAY PLANS:</p>
+                <div class="lineRed"></div>
+                <p class="subheading-offer">
+                  Grab Up to 30% OFF* on international flights, hotels &
+                  homestays
+                </p>
+              </div>
+            </div>
+            <div class="atagdiv">
+              <a class="offerAtag">VIEW DETAILS</a>
+            </div>
+          </div>
+          <div class="offerCard">
+            <div class="insideOfferCard">
+              <img
+                class="offer-img"
+                src="https://promos.makemytrip.com/notification/xhdpi//desktop-IH-StaysAroundTheWorld-080525.jpg?im=Resize=(134,134)"
+              />
+              <div class="textofferclass">
+                <div class="topheaderandTC">
+                  <p class="top-heading">INTL FLIGHTS</p>
+                  <p class="tandc">T&C'S APPLY</p>
+                </div>
+                <p class="heading-offer">FAST-TRACK YOUR SUMMER VACAY PLANS:</p>
+                <div class="lineRed"></div>
+                <p class="subheading-offer">
+                  Grab Up to 30% OFF* on international flights, hotels &
+                  homestays
+                </p>
+              </div>
+            </div>
+            <div class="atagdiv">
+              <a class="offerAtag">VIEW DETAILS</a>
+            </div>
+          </div>
+          <div class="offerCard">
+            <div class="insideOfferCard">
+              <img
+                class="offer-img"
+                src="https://promos.makemytrip.com/notification/xhdpi//desktop-IH-StaysAroundTheWorld-080525.jpg?im=Resize=(134,134)"
+              />
+              <div class="textofferclass">
+                <div class="topheaderandTC">
+                  <p class="top-heading">INTL FLIGHTS</p>
+                  <p class="tandc">T&C'S APPLY</p>
+                </div>
+                <p class="heading-offer">FAST-TRACK YOUR SUMMER VACAY PLANS:</p>
+                <div class="lineRed"></div>
+                <p class="subheading-offer">
+                  Grab Up to 30% OFF* on international flights, hotels &
+                  homestays
+                </p>
+              </div>
+            </div>
+            <div class="atagdiv">
+              <a class="offerAtag">VIEW DETAILS</a>
+            </div>
+          </div>
+          <div class="offerCard">
+            <div class="insideOfferCard">
+              <img
+                class="offer-img"
+                src="https://promos.makemytrip.com/notification/xhdpi//desktop-IH-StaysAroundTheWorld-080525.jpg?im=Resize=(134,134)"
+              />
+              <div class="textofferclass">
+                <div class="topheaderandTC">
+                  <p class="top-heading">INTL FLIGHTS</p>
+                  <p class="tandc">T&C'S APPLY</p>
+                </div>
+                <p class="heading-offer">FAST-TRACK YOUR SUMMER VACAY PLANS:</p>
+                <div class="lineRed"></div>
+                <p class="subheading-offer">
+                  Grab Up to 30% OFF* on international flights, hotels &
+                  homestays
+                </p>
+              </div>
+            </div>
+            <div class="atagdiv">
+              <a class="offerAtag">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
